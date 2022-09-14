@@ -1,3 +1,3 @@
 # Landing-Page
 
-Landing page for the odin project assignment - 2
+Landing page for the odin project assignment - 2.
