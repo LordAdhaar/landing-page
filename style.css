@@ -1,13 +1,16 @@
 body{
     margin: 0px;
 }
-
-.header{
+.top{
     background-color: #1F2937;
+    
+}
+.header{
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 340px;
 }
 .header img{
     width: auto;
@@ -18,7 +21,7 @@ body{
 ul{
     list-style: none;
     display: flex;
-    gap: 15px;
+    gap: 20px;
 }
 
 a{
@@ -29,7 +32,6 @@ a{
 }
 
 .content-one{
-    background-color: #1F2937;
     color: white;
     font-family: 'Roboto', sans-serif;
     padding: 70px 340px;
@@ -102,4 +104,20 @@ button{
 
 .struggler p{
     margin: 5px;
+}
+
+.quote{
+    height: 300px;
+    display:flex;
+    background-color: azure;
+    margin-top: 50px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    margin:auto;
+    padding:0px 300px;
 }
