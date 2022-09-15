@@ -3,6 +3,7 @@ body{
 }
 .top{
     background-image: url(./images/eclipse.webp);
+    background-size: 100%;
     
 }
 .header{
