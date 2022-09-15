@@ -9,10 +9,10 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-.header .header-logo{
-    font-weight: bold;
-    font-size: 24px;
-    font-family: 'Roboto', sans-serif;
+.header img{
+    width: auto;
+    height: 60px;
+    padding-top: 10px;
 }
 
 ul{
@@ -26,4 +26,80 @@ a{
     color: white;
     font-family: 'Roboto', sans-serif;
 
+}
+
+.content-one{
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 70px 340px;
+    display: flex;
+    gap: 100px;
+
+}
+.website-desc{
+    padding-top: 10px;
+}
+.hero-text{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px 0px;
+    margin-bottom: 9px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    padding: 5px 23px;
+    border: whitesmoke;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.web-image img{
+    height: auto;
+    width: 550px;
+    filter: drop-shadow(4px 4px 50px black);
+}
+
+.struggler-heading{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    color: #1F2937;
+    width: fit-content;
+    margin: 30px auto;
+}
+
+.struggler-options{
+    padding: 20px 110px;
+    display: flex;
+    gap: 110px;
+    justify-content: space-around;
+}
+
+.struggler img{
+    width: auto;
+    height: 400px;
+    filter: drop-shadow(2px 4px 6px black);
+    
+}
+
+.struggler p, .struggler h3{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin:0px;
+    margin-top: 10px;
+}
+
+.struggler p{
+    margin: 5px;
 }
