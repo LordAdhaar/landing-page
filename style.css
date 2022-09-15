@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 .top{
-    background-color: #1F2937;
+    background-image: url(./images/eclipse.webp);
     
 }
 .header{
@@ -10,7 +10,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 340px;
+    padding:0px 100px;
+    padding-right: 250px;
 }
 .header img{
     width: auto;
@@ -34,8 +35,9 @@ a{
 .content-one{
     color: white;
     font-family: 'Roboto', sans-serif;
-    padding: 70px 340px;
+    padding: 70px 100px;
     display: flex;
+    justify-content: space-between;
     gap: 100px;
 
 }
@@ -50,9 +52,11 @@ a{
 .hero-subtext{
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 400;
     margin: 5px 0px;
     margin-bottom: 9px;
     font-family: 'Roboto', sans-serif;
+    width: 400px;
 
 }
 
@@ -120,4 +124,30 @@ button{
     font-weight: 200;
     margin:auto;
     padding:0px 300px;
+}
+.cta{
+    font-family: 'Roboto', sans-serif;
+    background-color: #3882f6;
+    color: white;
+    margin: 100px 300px;
+    padding: 40px 0px;
+    border-radius:30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta button{
+    font-size: 20px;
+    flex: 0 0 auto;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+
 }
